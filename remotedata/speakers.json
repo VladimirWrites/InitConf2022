@@ -1,0 +1,109 @@
+{
+  "talks": [
+    {
+      "title": "HOW TO IMPLEMENT (_BUZZWORD_)",
+      "speaker": {
+        "name": "Timothy Mamo",
+        "title": "Senior Cloud Native Engineer"
+      }
+    },
+    {
+      "title": "A GUIDE TO FUNCTIONAL PROGRAMMING",
+      "speaker": {
+        "name": "Jemima Abu",
+        "title": "Front End Developer"
+      }
+    },
+    {
+      "title": "ESCAPING DEVELOPER NIGHTMARES",
+      "speaker": {
+        "name": "Rustam Mehmandarov",
+        "title": "Passionate computer scientist"
+      }
+    },
+    {
+      "title": "REMIX YOUR UI & UX TO ANOTHER LEVEL",
+      "speaker": {
+        "name": "Arisa Fukuzaki",
+        "title": "Developer Relations Engineer at Storyblok"
+      }
+    },
+    {
+      "title": "STOP USING JAVASCRIPT FOR THAT: MOVING FEATURES FROM JS TO CSS AND HTML",
+      "speaker": {
+        "name": "Kilian Valkhof",
+        "title": "Founder at Polypane browser for developers"
+      }
+    },
+    {
+      "title": "WILL ARTIFICIAL INTELLIGENCE (AI) REPLACE OR ASSIST DEVELOPERS?",
+      "speaker": {
+        "name": "Tomislav Bronzin",
+        "title": "Digital Transformation Advisor"
+      }
+    },
+    {
+      "title": "ORDERING THE CHAOS - CLEANING LOGS AND ORDERING EVENTS IN MICROSERVICES",
+      "speaker": {
+        "name": "Adam Furmanek",
+        "title": "Software Developer, Blogger, Public Speaker, Book Writer"
+      }
+    },
+    {
+      "title": "DARK SECRETS OF THE EVENT LOOP",
+      "speaker": {
+        "name": "Vekoslav Stefanovski",
+        "title": "Head of Development at Sourcico"
+      }
+    },
+    {
+      "title": "CLEAN SOFTWARE ARCHITECTURE WITH CLEAN CODE TIPS",
+      "speaker": {
+        "name": "Boris Janjanin",
+        "title": "ProductDock, Senior software engineer"
+      }
+    },
+    {
+      "title": "SO, YOU WANNA BE A GAME DEVELOPER?",
+      "speaker": {
+        "name": "Leo Tot",
+        "title": "Your Game Dev Senpai"
+      }
+    },
+    {
+      "title": "FROM THE SIX FEET UNDER, TO THE STARS AND ABOVE",
+      "speaker": {
+        "name": "Romeo Mlinar & Nenad Trajkovski",
+        "title": "Never Give Up!"
+      }
+    },
+    {
+      "title": "AZURE VS AWS, CONTAINERS, SCALING, K8S PLATFORMS, COST, WINNER",
+      "speaker": {
+        "name": "Ratomir Vukadin",
+        "title": "Devtech group, Software Engineer"
+      }
+    },
+    {
+      "title": "THERE AND BACK AGAIN OF SOFTWARE ARCHITECTURE: MONOLITHS VS. MICROSERVICES",
+      "speaker": {
+        "name": "Zoran Horvat",
+        "title": "Principal consultant at Coding Helmet s.p.r.l."
+      }
+    },
+    {
+      "title": "WILL ARTIFICIAL INTELLIGENCE (AI) REPLACE OR ASSIST DEVELOPERS?",
+      "speaker": {
+        "name": "Arian Stipić",
+        "title": "Digital Architect"
+      }
+    },
+    {
+      "title": "SOLUTION ARCHITECTURE - STRATEGIC BETS IN THE FACE OF UNCERTAINTY",
+      "speaker": {
+        "name": "Aleksandar Kahriman",
+        "title": "Tech Excellence Office of HTEC Group"
+      }
+    }
+  ]
+}
