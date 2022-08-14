@@ -13,8 +13,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import org.initconf.data.talk
 import org.initconf.model.Talk
@@ -51,9 +54,9 @@ fun TalkCard(talk: Talk) {
         Column(
             modifier = Modifier.padding(all = 8.dp)
         ) {
-            Text(text = talk.title)
-            Text(text = talk.speaker.name)
-            Text(text = talk.speaker.title)
+            Text(text = talk.title, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+            Text(text = talk.speaker.name, fontWeight = FontWeight.Normal, fontSize = 14.sp)
+            Text(text = talk.speaker.title, fontStyle = FontStyle.Italic, fontSize = 12.sp)
         }
     }
 
