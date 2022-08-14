@@ -7,6 +7,7 @@ val talk = Talk(
     "Test Talk",
     Speaker(
         "Marko Marković",
-        "Android Developer"
+        "Android Developer",
+        "https://initconf.org/assets/images/team/5zidoo.jpg"
     )
 )
