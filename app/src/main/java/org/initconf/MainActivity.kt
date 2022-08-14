@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import org.initconf.data.talk
+import org.initconf.data.talks
 import org.initconf.model.Talk
 import org.initconf.ui.theme.InitConf2022Theme
 
@@ -32,7 +33,7 @@ class MainActivity : ComponentActivity() {
             InitConf2022Theme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    TalkCard(talk)
+                    TalksList(talks = talks)
                 }
             }
         }
@@ -77,6 +78,6 @@ fun TalkCard(talk: Talk) {
 @Composable
 fun DefaultPreview() {
     InitConf2022Theme {
-        TalkCard(talk)
+        TalksList(talks = talks)
     }
 }
