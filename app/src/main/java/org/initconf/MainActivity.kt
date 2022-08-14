@@ -31,6 +31,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TalkCard(talk: Talk) {
     Text(text = talk.title)
+    Text(text = talk.speaker.name)
+    Text(text = talk.speaker.title)
 }
 
 @Preview(showBackground = true)
