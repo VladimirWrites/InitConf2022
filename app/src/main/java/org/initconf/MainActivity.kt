@@ -3,15 +3,13 @@ package org.initconf
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
@@ -38,7 +36,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TalkCard(talk: Talk) {
-    Row() {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.padding(all = 8.dp)
+    ) {
         AsyncImage(
             model = talk.speaker.image,
             contentDescription = "Image of ${talk.speaker}",
@@ -47,7 +48,9 @@ fun TalkCard(talk: Talk) {
                 .clip(CircleShape)
                 .size(60.dp)
         )
-        Column() {
+        Column(
+            modifier = Modifier.padding(all = 8.dp)
+        ) {
             Text(text = talk.title)
             Text(text = talk.speaker.name)
             Text(text = talk.speaker.title)
