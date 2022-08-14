@@ -10,6 +10,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import org.initconf.data.talk
+import org.initconf.model.Talk
 import org.initconf.ui.theme.InitConf2022Theme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +21,7 @@ class MainActivity : ComponentActivity() {
             InitConf2022Theme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    TalkCard(talk)
                 }
             }
         }
@@ -27,14 +29,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+fun TalkCard(talk: Talk) {
+    Text(text = talk.title)
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     InitConf2022Theme {
-        Greeting("Android")
+        TalkCard(talk)
     }
 }
