@@ -4,105 +4,120 @@
       "title": "HOW TO IMPLEMENT (_BUZZWORD_)",
       "speaker": {
         "name": "Timothy Mamo",
-        "title": "Senior Cloud Native Engineer"
+        "title": "Senior Cloud Native Engineer",
+        "image": "https://initconf.org/assets/images/speakers/timothy.jpg"
       }
     },
     {
       "title": "A GUIDE TO FUNCTIONAL PROGRAMMING",
       "speaker": {
         "name": "Jemima Abu",
-        "title": "Front End Developer"
+        "title": "Front End Developer",
+        "image": "https://initconf.org/assets/images/speakers/jemima.jpg"
       }
     },
     {
       "title": "ESCAPING DEVELOPER NIGHTMARES",
       "speaker": {
         "name": "Rustam Mehmandarov",
-        "title": "Passionate computer scientist"
+        "title": "Passionate computer scientist",
+        "image": "https://initconf.org/assets/images/speakers/rustam.jpg"
       }
     },
     {
       "title": "REMIX YOUR UI & UX TO ANOTHER LEVEL",
       "speaker": {
         "name": "Arisa Fukuzaki",
-        "title": "Developer Relations Engineer at Storyblok"
+        "title": "Developer Relations Engineer at Storyblok",
+        "image": "https://initconf.org/assets/images/speakers/arisa.jpg"
       }
     },
     {
       "title": "STOP USING JAVASCRIPT FOR THAT: MOVING FEATURES FROM JS TO CSS AND HTML",
       "speaker": {
         "name": "Kilian Valkhof",
-        "title": "Founder at Polypane browser for developers"
+        "title": "Founder at Polypane browser for developers",
+        "image": "https://initconf.org/assets/images/speakers/kilian.jpg"
       }
     },
     {
       "title": "WILL ARTIFICIAL INTELLIGENCE (AI) REPLACE OR ASSIST DEVELOPERS?",
       "speaker": {
         "name": "Tomislav Bronzin",
-        "title": "Digital Transformation Advisor"
+        "title": "Digital Transformation Advisor",
+        "image": "https://initconf.org/assets/images/speakers/tomislav.jpg"
       }
     },
     {
       "title": "ORDERING THE CHAOS - CLEANING LOGS AND ORDERING EVENTS IN MICROSERVICES",
       "speaker": {
         "name": "Adam Furmanek",
-        "title": "Software Developer, Blogger, Public Speaker, Book Writer"
+        "title": "Software Developer, Blogger, Public Speaker, Book Writer",
+        "image": "https://initconf.org/assets/images/speakers/adam.jpg"
       }
     },
     {
       "title": "DARK SECRETS OF THE EVENT LOOP",
       "speaker": {
         "name": "Vekoslav Stefanovski",
-        "title": "Head of Development at Sourcico"
+        "title": "Head of Development at Sourcico",
+        "image": "https://initconf.org/assets/images/speakers/vekoslav.jpg"
       }
     },
     {
       "title": "CLEAN SOFTWARE ARCHITECTURE WITH CLEAN CODE TIPS",
       "speaker": {
         "name": "Boris Janjanin",
-        "title": "ProductDock, Senior software engineer"
+        "title": "ProductDock, Senior software engineer",
+        "image": "https://initconf.org/assets/images/speakers/boris.jpg"
       }
     },
     {
       "title": "SO, YOU WANNA BE A GAME DEVELOPER?",
       "speaker": {
         "name": "Leo Tot",
-        "title": "Your Game Dev Senpai"
+        "title": "Your Game Dev Senpai",
+        "image": "https://initconf.org/assets/images/speakers/leo.jpg"
       }
     },
     {
       "title": "FROM THE SIX FEET UNDER, TO THE STARS AND ABOVE",
       "speaker": {
         "name": "Romeo Mlinar & Nenad Trajkovski",
-        "title": "Never Give Up!"
+        "title": "Never Give Up!",
+        "image": "https://initconf.org/assets/images/speakers/romeo.jpg"
       }
     },
     {
       "title": "AZURE VS AWS, CONTAINERS, SCALING, K8S PLATFORMS, COST, WINNER",
       "speaker": {
         "name": "Ratomir Vukadin",
-        "title": "Devtech group, Software Engineer"
+        "title": "Devtech group, Software Engineer",
+        "image": "https://initconf.org/assets/images/speakers/ratomir.jpg"
       }
     },
     {
       "title": "THERE AND BACK AGAIN OF SOFTWARE ARCHITECTURE: MONOLITHS VS. MICROSERVICES",
       "speaker": {
         "name": "Zoran Horvat",
-        "title": "Principal consultant at Coding Helmet s.p.r.l."
+        "title": "Principal consultant at Coding Helmet s.p.r.l.",
+        "image": "https://initconf.org/assets/images/speakers/zoran.jpg"
       }
     },
     {
       "title": "WILL ARTIFICIAL INTELLIGENCE (AI) REPLACE OR ASSIST DEVELOPERS?",
       "speaker": {
         "name": "Arian Stipić",
-        "title": "Digital Architect"
+        "title": "Digital Architect",
+        "image": "https://initconf.org/assets/images/speakers/arian.jpg"
       }
     },
     {
       "title": "SOLUTION ARCHITECTURE - STRATEGIC BETS IN THE FACE OF UNCERTAINTY",
       "speaker": {
         "name": "Aleksandar Kahriman",
-        "title": "Tech Excellence Office of HTEC Group"
+        "title": "Tech Excellence Office of HTEC Group",
+        "image": "https://initconf.org/assets/images/speakers/aleksandar.jpeg"
       }
     }
   ]
