@@ -24,11 +24,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import dagger.hilt.android.AndroidEntryPoint
 import org.initconf.data.talk
 import org.initconf.data.talks
-import org.initconf.model.Talk
+import org.initconf.ui.model.Talk
+import org.initconf.ui.talks.TalksScreen
 import org.initconf.ui.theme.InitConf2022Theme
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,54 +39,9 @@ class MainActivity : ComponentActivity() {
             InitConf2022Theme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    TalksList(talks = talks)
+                    TalksScreen()
                 }
             }
         }
-    }
-}
-
-@Composable
-fun TalksList(talks: List<Talk>) {
-    LazyColumn() {
-        items(talks) { talk ->
-            TalkCard(talk)
-        }
-    }
-}
-
-@Composable
-fun TalkCard(talk: Talk) {
-    val context = LocalContext.current
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
-            .padding(all = 8.dp)
-            .clickable { Toast.makeText(context,"${talk.title} clicked", Toast.LENGTH_SHORT).show() }
-    ) {
-        AsyncImage(
-            model = talk.speaker.image,
-            contentDescription = "Image of ${talk.speaker}",
-            contentScale = ContentScale.FillHeight,
-            modifier = Modifier
-                .clip(CircleShape)
-                .size(60.dp)
-        )
-        Column(
-            modifier = Modifier.padding(all = 8.dp)
-        ) {
-            Text(text = talk.title, fontWeight = FontWeight.Bold, fontSize = 18.sp)
-            Text(text = talk.speaker.name, fontWeight = FontWeight.Normal, fontSize = 14.sp)
-            Text(text = talk.speaker.title, fontStyle = FontStyle.Italic, fontSize = 12.sp)
-        }
-    }
-
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    InitConf2022Theme {
-        TalksList(talks = talks)
     }
 }
