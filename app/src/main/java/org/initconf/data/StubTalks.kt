@@ -1,7 +1,7 @@
 package org.initconf.data
 
-import org.initconf.model.Speaker
-import org.initconf.model.Talk
+import org.initconf.ui.model.Speaker
+import org.initconf.ui.model.Talk
 
 val talk = Talk(
     "Test Talk",
