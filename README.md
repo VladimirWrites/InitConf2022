@@ -1,5 +1,9 @@
-# InitConf2022
-InitConf2022 Workshop
+<div align="center">
+    <img alt="Icon" src="remotedata/assets/icon.png" width="200" />
+</div>
+<h3 align="center">
+    InitConf2022 Workshop
+</h3>
 
 | Dark Theme      | Light Theme |
 | ----------- | ----------- |
